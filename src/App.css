@@ -1,0 +1,119 @@
+
+
+.main{
+  text-align: center;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  justify-content: center;
+  background-color:aqua;
+  height: 2000px;
+  width: 2050px;
+}
+.sub-main{
+  display: flex;
+  justify-content: center;
+  height: 1550px;
+  width: 1950px;
+  /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
+  /* padding-top: 30px; */
+  background-color: white;
+  border-radius: 10px;
+}
+.tri{
+  height: 100px;
+  width: 100px;
+  justify-content: left;
+  display: flex;
+  padding-right: 200px;
+}
+.li{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1600px;
+}
+.ex{
+  justify-content: space-evenly;
+  padding-left: 12px;
+}
+a{
+  color: #000;;
+  font-size: 20px;
+}
+.img
+{
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+.container-image
+{
+  background-color: white;
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  height: 115px;
+  width: 115px;
+  
+}
+.profile
+{
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+}
+input{
+  height: 50px;
+  width: 250px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px gray;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.email{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 15px 0px 0px 25px ;
+}
+.name{
+   padding-left: 70px;
+   font-size: 20px;
+}
+button{
+  width: 260px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: blueviolet;
+  border: none;
+  font-size: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+.login-button{
+  padding-top: 20px;
+
+}
+.login-button:hover{transform: scale(1.25);}
+.link{
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.Left{
+  width: 50%;
+  height: 1000px;
+  float: left;
+
+}
+.right{
+  margin-left: 50%;
+  height: 1000px;
+}
+.pic{
+  padding-right: 500px;
+  height: 600px;
+  width: 700px;
+}

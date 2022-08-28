@@ -1,0 +1,120 @@
+.main{
+    display: flex;
+    background-color: aqua;
+    padding: 10px 10px 10px 10px;
+    height:2000px ;
+    width: 2000px;
+
+}
+.sub-main{
+    display: flex;
+    background-color: white;
+    height: 1550px;
+    width: 1950px;
+    border-radius: 10px;
+}
+.triangle{
+    height: 100px;
+    width: 100px;
+    justify-content: left;
+    display: flex;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1600px;
+}
+.Home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-evenly;
+    padding-left: 12px;
+    font-size: medium;
+}
+a{
+    color: black;
+    border: none;
+}
+.Home:hover{
+    transform: scale(1.1);
+}
+.table{
+    width: 1900px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border:  2px solid blue;
+    width: 1400px;
+    height: 50px;
+    
+}
+th{
+    border: 1px solid black;    
+}
+.p1{
+    color: grey;
+}
+.p2{
+    cursor: pointer;
+}
+.p2:hover{
+    transform: scale(1.1);
+}
+.shoppingcart{
+    height: 100px;
+    width: 100px;
+}
+.holder{
+    display: flex;
+    justify-content: left;
+    padding-left: 80px;
+}
+.card-container{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    position: relative;
+    justify-content: start;
+    border-radius:  20px;
+    padding: 20px;
+}
+/* .card-container:hover{
+    transform: scale(1.1);
+} */
+.image-container img{
+    overflow: hidden;
+    height: 200px;
+}
+.para1{
+    font-style: bold;
+}
+.para2{
+    padding-left: 240px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.btn{
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 40px;
+    
+}
+button:hover{
+    transform: scale(1.1);
+}
+.b1{
+    color: orange;
+    background-color: white;
+    border: solid orange;
+}
+.b2{
+    background-color: orange;
+    color: white;
+}
